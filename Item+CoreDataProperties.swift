@@ -14,9 +14,9 @@ import CoreData
 
 extension Item {
 
-    @NSManaged var name: String?
     @NSManaged var age: NSNumber?
-    @NSManaged var isWorking: NSNumber?
     @NSManaged var date: NSDate?
+    @NSManaged var isWorking: NSNumber?
+    @NSManaged var name: String?
 
 }
